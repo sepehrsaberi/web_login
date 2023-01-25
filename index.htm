@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sepi</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+    <div class="login_page">
+        <div class="form">
+            <input type="text" placeholder="Username" class="username" onkeyup="usernameValidation()">
+            <br>
+            <span class="username_validation">must contain 12 character</span>
+            <br>
+            <input type="password" placeholder="password" class="password" onkeyup="passwordValidation()">
+            <br>
+            <span class="password_validation">must contain 8 character</span>
+            <br>
+            <p class="massage">no rigester? <a href="#" onclick="singIn()">creat an acount now</a></p>
+            <br>
+                <div class="google">
+                    <a class="login_google" href="#">
+                        <img class="logo" src="Logo.png" alt="login with google" >
+                    </a>
+                </div>
+                <div class="face_book">
+                    <a class="login_google" href="#">
+                        <img class="logo_facebook" src="Facebook.png" alt="login with Facebook" >
+                    </a>
+                </div>
+                <div class="line"></div>
+                <p class="other_ways">Other ways to login</p>
+        </div>
+         <div class="form2">
+            <input type="text" placeholder=" name" class="name" onkeyup="usernameValidation()">
+            <br>
+            <input type="text" placeholder="last name" class="last_name" onkeyup="usernameValidation()">
+            <br>
+            <input type="email" placeholder="gmali" class="gmail" onkeyup="passwordValidation()">
+            <br>
+            <input type="password" placeholder=" password" class="sin_Password" onkeyup="usernameValidation()">
+            <br>
+            <input type="password" placeholder="current password" class="curn_password" onkeyup="usernameValidation()">
+            <span class="password_validation">must contain 8 character</span>
+            <br>
+            <p class="massage2">have one? <a href="#" onclick="logIn()">login now!</a></p>
+            <br>
+            <div class="singIn_div">
+                <div class="google">
+                    <a class="login_google" href="#">
+                        <img class="logo" src="Logo.png" alt="login with google" >
+                    </a>
+                </div>
+                <div class="face_book">
+                    <a class="login_google" href="#">
+                        <img class="logo_facebook" src="Facebook.png" alt="login with Facebook" >
+                    </a>
+                </div>
+                <div class="line"></div>
+                <p class="other_ways">Other ways to singin</p>
+            </div>
+        </div>
+    </div>
+    
+    
+    <script src="index.js"></script>
+</body>
+</html>

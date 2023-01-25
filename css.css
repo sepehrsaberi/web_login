@@ -1,0 +1,254 @@
+body{
+    background-color: rgb(43, 45, 59);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+::selection{
+    background-color: rgb(255, 145, 43);
+    color: black;
+}
+input:focus{
+border-color: red;
+
+}
+input{
+    outline: none;
+}
+.login_page{
+    padding-bottom: 20%;
+    transform: scale(1.4);
+}
+.form{
+    box-shadow: 4px 5px 5px -3px rgb(41, 41, 41) , -3px -3px 5px -2px rgba(101, 105, 139, 0.418) , inset 0px 0px 10px 1px rgb(53, 56, 82) ;
+    width: 200px;
+    height: 200px;
+    margin: 250px auto ;
+    position: relative;
+    background-color: rgb(43, 45, 59);
+    border-radius: 5px;
+    transform: rotateY('angle');
+    animation-fill-mode: both;
+   
+    
+}
+.username , .username_validation , .password , .password_validation , .massage {
+    position:absolute;
+    margin: 10px;
+}
+.username , .password {
+    background-color: rgb(156, 199, 255);
+    box-shadow: 0 0 9px 1px  rgba(156, 199, 255, 0.445);
+    border: none;
+    border-radius: 10px;
+    font-size: 12px;
+    padding-left: 10px;
+    width: 100px;
+    margin-left:40px  ;
+}
+.username_validation , .password_validation , .massage {
+    color: aliceblue;
+}
+p a {
+    text-decoration: none;
+    color: rgb(121, 217, 255);
+}
+.username_validation, .password_validation{
+    font-family: Verdana ;
+    font-size: 12px;
+    color: rgb(255, 0, 0);
+    text-shadow: 0 0 3px black;
+    display: none ;
+}
+.google {
+    display: block;
+    box-shadow: 0 0 7px 1px rgb(72, 173, 255) , inset 0 0 7px 1px rgb(72, 173, 255);
+    border-radius: 40px;
+    position:relative;
+    width: 23.5px;
+    height:23.5px;
+    margin: 42px 65px;
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+.logo{
+    z-index: -1;
+    box-sizing: 10px;
+    border-radius: 25px;
+    width: 62px;
+    height: 62px;
+    margin-left: -19.3px;
+    margin-top: -19.3px;
+
+}
+.line{
+    position: absolute;
+    margin: -30px 25px;
+    width: 150px;
+    height: 1px;
+    background-color: aliceblue;
+    opacity: 45%;
+}
+.other_ways{
+    position: absolute;
+    font-family: tahoma ;
+    font-size: 12px ;
+    font-weight: 100 ;
+    color: rgb(150, 175, 187);
+    margin: -25px 45px;
+    opacity: 75%;
+}
+.face_book {
+    box-shadow: 0 0 7px 1px rgb(72, 173, 255) , inset 0 0 7px 1px rgb(72, 173, 255);
+    border-radius: 40px;
+    position:absolute;
+    display: block;
+    width: 23.5px;
+    height:23.5px;
+    margin: -65px 105px;
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+.logo_facebook{
+    z-index: -1;
+    box-sizing: 10px;
+    border-radius: 25px;
+    width: 23.5px;
+    height: 23.5px;
+}
+.massage{
+    font-size: 10px;
+    margin-top: 5px;
+}
+.motion{
+    box-shadow: 4px 5px 5px -3px rgb(41, 41, 41) , -3px -3px 5px -2px rgba(101, 105, 139, 0.418) , inset 0px 0px 10px 1px rgb(53, 56, 82) ;
+    width: 200px;
+    height: 200px;
+    margin: 250px auto ;
+    position: relative;
+    background-color: rgb(43, 45, 59);
+    border-radius: 5px;
+    animation-name: rotation;
+    animation-duration:  3s ;
+    animation-direction: reverse ;
+}
+@keyframes rotation {
+    0% {
+        transform: rotateY(0deg);
+        width: 200px;
+        height: 200px;
+        visibility:unset;
+    }
+    50% {
+        transform: rotateY(90deg);
+        width: 200px;
+        height: 200px;
+        visibility: hidden;
+    }
+    100% {
+        transform: rotateY(180deg);
+        height: 275px;
+        width: 200px;
+        visibility: hidden;
+    }
+}
+.form2{
+    overflow: hidden;
+    box-shadow: 4px 5px 5px -3px rgb(41, 41, 41) , -3px -3px 5px -2px rgba(101, 105, 139, 0.418) , inset 0px 0px 10px 1px rgb(53, 56, 82) ;
+    width: 200px;
+    height: 275px;
+    margin-left:auto ;
+    margin-right: auto;
+    margin-top: -450px;
+    margin-bottom: auto;
+    position: relative;
+    background-color: rgb(43, 45, 59);
+    border-radius: 5px;
+    transform: rotateY('angle');
+    animation-fill-mode: both;
+    visibility: hidden;
+    
+}
+.name , .last_name , .gmail , .sin_Password , .curn_password{
+    background-color: rgb(156, 199, 255);
+    box-shadow: 0 0 9px 1px  rgba(156, 199, 255, 0.445);
+    border: none;
+    border-radius: 10px;
+    font-size: 12px;
+    padding-left: 10px;
+    width: 100px;
+    margin-left:40px  ;
+    margin-top: 20px;
+}
+.massage2{
+    color: aliceblue;
+    font-size: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.singIn_div{
+    margin-top: -60px;
+}
+@keyframes rotate2 {
+    0% {
+        
+        transform: rotateY(180deg);
+        width: 200px;
+        height: 200px;
+        visibility:hidden;
+    }
+    50% {
+        top: -20px;
+        transform: rotateY(90deg);
+        width: 200px;
+        height: 200px;
+        visibility: hidden;
+    }
+    100% {
+        top: -100px;
+        transform: rotateY(0deg);
+        height: 275px;
+        width: 200px;
+        visibility: unset;
+    }
+}
+@keyframes loginBack {
+    0% {
+        transform: rotateY(180deg);
+        
+        visibility:hidden;
+    }
+    50% {
+        transform: rotateY(90deg);
+       
+        visibility: hidden;
+    }
+    100% {
+        transform: rotateY(0deg);
+        
+        visibility: unset;
+    }
+}
+@keyframes loginBack2 {
+    0% {
+        transform: rotateY(0deg);
+        width: 200px;
+        height: 275px;
+        visibility:unset;
+    }
+    50% {
+        transform: rotateY(90deg);
+        width: 200px;
+        height: 200px;
+        visibility: hidden;
+    }
+    100% {
+        transform: rotateY(1800deg);
+        height: 200px;
+        width: 200px;
+        visibility: hidden;
+    }
+}
+.google:hover , .face_book:hover{
+    rotate: 360deg;
+    transform: scale(1.2);
+    filter: hue-rotate(90deg);
+}
