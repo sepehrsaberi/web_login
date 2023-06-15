@@ -1,9 +1,4 @@
-sepehrsaberi/README.html
-<DOCTYPE HTML!>
 <html>
-<head>
-<title>www.market</title>
-</head>
 <body>
 <div class="menu">
 <a href="#">My market</a>
